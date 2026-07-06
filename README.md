@@ -45,8 +45,7 @@ notebooks/
 
 Live App:
 
-https://dragonlore.streamlit.app/
-
+https://cosmore.streamlit.app/
 ---
 
 ## Future Improvements
