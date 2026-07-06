@@ -1,4 +1,4 @@
-# 🧴 Cosmore
+# 🧴 COSMORE+
 
 AI-powered cosmetic ingredient scanner built using OCR, computer vision and fuzzy matching.
 
