@@ -1,0 +1,10 @@
+streamlit
+opencv-python-headless
+pytesseract
+easyocr
+rapidfuzz
+pandas
+numpy
+Pillow
+matplotlib
+scikit-learn
