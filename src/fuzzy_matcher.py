@@ -182,8 +182,10 @@ def match_ingredient(ingredient, threshold=80):
             return {
                 "Input": ingredient,
                 "Matched Name": row["Name"],
-                "Description": row["Description"],
-                "Rating": row["Rating"],
+                "Description": row.get("Description"),
+                "Rating": row.get("Rating"),
+                "Family": row.get("Family"),
+                "Synonyms": row.get("Synonyms"),
                 "Score": best["Score"]
             }
 
@@ -193,6 +195,8 @@ def match_ingredient(ingredient, threshold=80):
         "Matched Name": None,
         "Description": None,
         "Rating": None,
+        "Family": None,
+        "Synonyms": None,
         "Score": best["Score"] if best else 0
     }
 
